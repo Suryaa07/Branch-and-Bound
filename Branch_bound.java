@@ -1,13 +1,8 @@
 import java.util.*;
 class Item {
 
-	
 	float weight;
-
-	
 	int value;
-
-	
 	int idx;
 	public Item() {}
 	public Item(int value, float weight,
@@ -22,20 +17,10 @@ class Item {
 class Node {
 	
 	float ub;
-
-	
 	float lb;
-
-	
 	int level;
-
-	
 	boolean flag;
-
-	
 	float tv;
-
-	
 	float tw;
 	public Node() {}
 	public Node(Node cpy)
